@@ -24,8 +24,11 @@
     methods: {
       getData() {
         axios.get('/getUserList').then((res) => {
-          console.log(res)
           this.userList = res.data.data.rows;
+          console.log("res\n",res)
+          console.log("res.data\n",res.data)
+          console.log("res.data.data\n",res.data.data)
+          console.log("res.data.data.rows\n",this.userList)
         })
       }
     }

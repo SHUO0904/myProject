@@ -1,6 +1,7 @@
 // 首先引入Mock
 //https://blog.csdn.net/gnosed/article/details/105178518
 //https://blog.csdn.net/ZHANGYANG_1109/article/details/124547442
+//https://blog.csdn.net/qq_31126175/article/details/81875468
 const Mock = require('mockjs');
 
 // 设置拦截ajax请求的相应时间

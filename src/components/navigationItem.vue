@@ -8,7 +8,7 @@
     </template>
     <!--父级菜单-->
     <el-submenu v-else :index="item.path" style="text-align: left">
-      <span slot="title" style="font-size: 17px;">
+      <span slot="title">
         <i :class="item.iconCls"></i>
         {{item.nameZh}}
       </span>
@@ -25,7 +25,7 @@
 
 <script>
   export default {
-    name: 'NavigationItem',
+    name: 'navigationItem',
     props: {
       item: {
         type: Object,

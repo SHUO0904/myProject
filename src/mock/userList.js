@@ -26,7 +26,7 @@ let menuList = {
       'parentId':0,
       'children':[{
         'id':'@guid',
-        'path': '/admin/user/profile',
+        'path': '/demo',
         'name': 'Profile',
         'nameZh': '用户信息',
         'iconCls': null,
@@ -35,7 +35,7 @@ let menuList = {
         'children': null
       },{
         'id':'@guid',
-        'path': '/admin/user/role',
+        'path': '/navH',
         'name': 'Profile',
         'nameZh': '角色配置',
         'iconCls': null,
